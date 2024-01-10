@@ -33,4 +33,4 @@ A webapp for creating classroom routines, and daily schedules.
 - [Tippy.js](https://github.com/atomiks/tippyjs)
 - [Toastify.js](https://github.com/aleab/toastify)
 - [Color.js](https://colorjs.io/)
-- [Badge Generator](https://michaelcurrin.github.io/badge-generator/#/generic) - Badges created with this webapp
+- [Badge Generator](https://michaelcurrin.github.io/badge-generator/#/generic) - Badges created with this webappf
