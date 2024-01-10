@@ -3,7 +3,7 @@ A webapp for creating classroom routines, and daily schedules.
 
 ## To-do 
 - 2024/1/x
-    - local storage will eventually run out of space, do we use [Dexie](https://dexie.org/) from the get-go and figure out [Dexie Cloud](https://dexie.org/cloud/) or do we use something like [Supabase](https://supabase.com/) or [Firebase](https://firebase.google.com/)
+    - integrated [Supabase](https://supabase.com/) for data storage.
 - 2024/1/x
     - users can now creatine routines
     - users can now add to the daily schedule (for the current day)
