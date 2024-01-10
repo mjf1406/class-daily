@@ -4,6 +4,7 @@ A webapp for creating classroom routines, and daily schedules.
 ## To-do 
 - 2024/1/x
     - integrated [Supabase](https://supabase.com/) for data storage.
+        - https://supabase.com/dashboard/project/igoyfsrthdefyrctcyty
 - 2024/1/x
     - users can now creatine routines
     - users can now add to the daily schedule (for the current day)
