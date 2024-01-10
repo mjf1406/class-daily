@@ -3,7 +3,7 @@ A webapp for creating classroom routines, and daily schedules.
 
 <div align="center">
 
-[![Hosted on Supabase](/data/img/supabase-logo-icon.png)](https://supabase.com/ "Go to website")
+[![Hosted on - Supabase](https://img.shields.io/badge/Hosted_on-Supabase-2ea44f?style=for-the-badge&logo=%2Fdata%2Fimg%2Fsupabase-logo-icon.svg)](https://supabase.com/)
 
 </div>
 
