@@ -1,6 +1,12 @@
 # Class Daily
 A webapp for creating classroom routines, and daily schedules.
 
+<div align="center">
+
+[![Hosted on Supabase](/data/img/supabase-logo-icon.png)](https://supabase.com/ "Go to website")
+
+</div>
+
 ## To-do 
 - 2024/1/x
     - integrated [Supabase](https://supabase.com/) for data storage.
@@ -21,3 +27,10 @@ A webapp for creating classroom routines, and daily schedules.
     - can drag and drop days on the week view to move them around
     - added a month view
     - can drag and drop day son the month view to move them around
+
+  ## Dependencies
+- [TailwindCSS](https://tailwindcss.com/)
+- [Tippy.js](https://github.com/atomiks/tippyjs)
+- [Toastify.js](https://github.com/aleab/toastify)
+- [Color.js](https://colorjs.io/)
+- [Badge Generator](https://michaelcurrin.github.io/badge-generator/#/image) - Badges created with this webapp
