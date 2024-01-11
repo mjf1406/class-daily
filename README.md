@@ -8,6 +8,8 @@ A webapp for creating classroom routines, and daily schedules.
 </div>
 
 ## Change Log
+- 2024/1/11
+    - users can now create a class by clicking the + button in the upper-right corner
 - 2024/1/x
     - integrated [Supabase](https://supabase.com/) for data storage.
         - https://supabase.com/dashboard/project/igoyfsrthdefyrctcyty
@@ -16,9 +18,8 @@ A webapp for creating classroom routines, and daily schedules.
         - set up login with email
         - get realtime up and running
 - 2024/1/x
-    - can now add classes
-    - can now add routines that are class-dependent or class-independent
-    - can now add to the daily schedule (for the current day)
+    - can now create routines that are class-dependent or class-independent
+    - can now create to the daily schedule (for the current day)
     - can now create a daily schedule for any date in the future
     - can now mark items on the daily schedule complete and they get crossed out with a nice animation
     - daily schedule items can be dragged and dropped to reorder
@@ -29,7 +30,7 @@ A webapp for creating classroom routines, and daily schedules.
     - added a month view
     - can now drag and drop day son the month view to move them around
 
-  ## Dependencies
+## Dependencies
 - [TailwindCSS](https://tailwindcss.com/)
 - [Tippy.js](https://github.com/atomiks/tippyjs)
 - [Toastify.js](https://github.com/aleab/toastify)

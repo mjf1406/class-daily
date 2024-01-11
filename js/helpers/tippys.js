@@ -4,8 +4,8 @@ tippy('#centers', {
 tippy('#settings', {
     content: "Settings"
 })
-tippy('#add-custom-timer', {
-    content: "Create custom timer"
+tippy('#create-class', {
+    content: "Create a class"
 })
 tippy('#custom-timer-settings', {
     content: "Custom timers settings"

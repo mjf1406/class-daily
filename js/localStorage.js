@@ -8,3 +8,11 @@ function getActiveClass(){
     if (activeClass) return activeClass
     return null
 }
+function getClass(activeClass){
+    return JSON.parse(localStorage.getItem('classes')).find((i => i.name === activeClass))
+}
+function setupClasses(){
+    const classes = localStorage.getItem('classes')
+    if (classes) return
+    localStorage.setItem('classes','[]')
+}
