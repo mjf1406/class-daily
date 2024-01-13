@@ -28,7 +28,8 @@ A webapp for creating classroom routines, and daily schedules.
     - added a week view
     - can now drag and drop days on the week view to move them around
     - added a month view
-    - can now drag and drop day son the month view to move them around
+    - can now drag and drop days on the month view to move them around
+    - activities can now be saved with a color and the shape. activities are the things that are added to the daily schedule or routine
 
 ## Dependencies
 - [TailwindCSS](https://tailwindcss.com/)
