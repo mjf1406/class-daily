@@ -1,0 +1,19 @@
+{
+  "name": "class-daily",
+  "version": "1.0.0",
+  "description": "A webapp for creating classroom routines, and daily schedules.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/mjf1406/class-daily"
+  },
+  "author": "Michael Fitzgerald",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.3",
+    "require": "^0.4.4"
+  }
+}

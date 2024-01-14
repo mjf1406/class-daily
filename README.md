@@ -8,6 +8,8 @@ A webapp for creating classroom routines, and daily schedules.
 </div>
 
 ## Change Log
+- 2024/1/14
+    - implemented CSV upload only
 - 2024/1/11
     - users can now create a class by clicking the + button in the upper-right corner
 - 2024/1/x

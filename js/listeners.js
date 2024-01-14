@@ -15,3 +15,11 @@ createClassButton.addEventListener('click', function(event){
     color.value = '#000'
     setSelectedValueFromRadioGroup('create-class-shape', 'xmark')
 })
+
+classesSelect.addEventListener('change', function(){
+    const selectedClass = this.value
+    console.log("🚀 ~ classesSelect.addEventListener ~ selectedClass:", selectedClass)
+    fetchCSV().then(data => {
+        populateActivities(data, selectedClass)
+    })
+})

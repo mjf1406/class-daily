@@ -27,15 +27,3 @@ for (let index = 0; index < SHAPES.length; index++) {
 
     createClassShapes.appendChild(label)
 }
-
-function addClass(name, color, shape){
-    const classes = JSON.parse(localStorage.getItem('classes'))
-    classes.push({
-        name: name,
-        color: color,
-        shape: shape,
-        routines: [],
-        schedules: []
-    })
-    localStorage.setItem('classes', JSON.stringify(classes))
-}

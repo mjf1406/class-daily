@@ -41,9 +41,5 @@ function generateId() { // Function to generate a random ID
         Math.floor(Math.random() * 36).toString(36)
     ).join("");
 }
-Array.prototype.random = function() {
-    if (this.length === 0) return null;
-    const randomIndex = Math.floor(Math.random() * this.length);
-    return this[randomIndex];
-}
+
 const sleep = ms => new Promise(r => setTimeout(r, ms));
