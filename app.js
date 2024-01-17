@@ -48,8 +48,8 @@ function populateActivities(data, selectedClass){
         const label = document.createElement('label')
         label.id = `label-${activity}`
         label.setAttribute('for', `checkbox-${activity}`)
-        // label.innerHTML = `${index + 1}.) ${activity}`
-        label.innerHTML = activity
+        label.innerHTML = `${index + 1}.) ${activity}`
+        // label.innerHTML = activity
         label.classList.add('ms-2','font-medium')
         
 
