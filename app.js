@@ -22,6 +22,7 @@ async function populateClasses(data){
 
 function populateActivities(data, selectedClass){
     activitiesDiv.innerHTML = ''
+    data = data.filter(i => i.CLASS == selectedClass)
     for (let index = 0; index < data.length; index++) {
         const element = data[index];
         const currentDate = new Date();
