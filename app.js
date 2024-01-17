@@ -2,7 +2,7 @@ const SHAPES = ['xmark','burst','circle','cloud','clover','diamond','heart','shi
 const classesSelect = document.getElementById('classes-select')
 const activitiesDiv = document.getElementById('activities-container')
 
-fetchCSV().then(data => {
+fetchCSV('SCHEDULE - Sheet1').then(data => {
     populateClasses(data)
     populateActivities(data, data[0].CLASS)
     
