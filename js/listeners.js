@@ -19,7 +19,7 @@ createClassButton.addEventListener('click', function(event){
 classesSelect.addEventListener('change', function(){
     const selectedClass = this.value
     console.log("🚀 ~ classesSelect.addEventListener ~ selectedClass:", selectedClass)
-    fetchCSV('SCHEDULE - Sheet1').then(data => {
+    fetchCSV('./SCHEDULE - Sheet1').then(data => {
         populateActivities(data, selectedClass)
     })
 })
