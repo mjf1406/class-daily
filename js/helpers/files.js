@@ -1,6 +1,6 @@
 async function fetchCSV(filePath) {
     try {
-        const response = await fetch(filePath);
+        const response = await fetch(`${filePath}.csv`);
         const data = await response.text();
         return csvToJson(data);
     } catch (error) {
